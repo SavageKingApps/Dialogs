@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Dialogs</string>
+
+    <string name = "toolbar_title">Sample Code</string>
+    <string name = "toolbar_subtitle">By Monroe Shed</string>
+
+    <!-- needed for instructions layout -->
+    <string name = "textview_introduction">The sample code shows use of layouts, Toolbar, RadioButtons, Handlers, OnActivityResult, DialogFragments, Buttons, Toasts, and pure Android coding.</string>
+    <string name = "textview_instructions">NOTE: Select a radio button below and press the SHOW button to show the corresponding dialog.</string>
+
+    <!-- radio buttons -->
+    <string name = "rb_date_picker">Date Picker Dialog</string>
+    <string name = "rb_time_picker">Time Picker Dialog</string>
+    <string name = "rb_progress_dialog">Progress Dialog</string>
+    <string name = "rb_standard_dialog">Standard Dialog</string>
+    <string name = "rb_single_choice_list">Single Choice Dialog</string>
+    <string name = "rb_single_choice_radio_list">Radio Button Dialog</string>
+    <string name = "rb_multiple_choice_list">Check Box Dialog</string>
+
+    <string name = "button_show_text">Show</string>
+
+    <!-- single choice dialog -->
+    <string name = "dialog_single_choice_title">Pick a color</string>
+
+    <string-array name="choices">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Purple</item>
+    </string-array>
+
+    <!-- single choice dialog ( radio buttons ) -->
+    <string name = "radio_button_dialog_positive_button">Done</string>
+    <string name = "radio_button_dialog_negative_button">Cancel</string>
+
+    <!-- multiple choice dialog ( check boxes ) -->
+    <string name = "multiple_choice_dialog_title">Pick a color</string>
+    <string name = "multiple_choice_dialog_positive_button">Done</string>
+    <string name = "multiple_choice_dialog_negative_button">Cancel</string>
+
+    <!-- standard dialog -->
+    <string name = "standard_dialog_title">Sample Code</string>
+    <string name = "standard_dialog_message">This is a sample code application by Monroe Shed.</string>
+    <string name = "standard_dialog_positive_button">Thanks</string>
+    <string name = "standard_dialog_negative_button">Cancel</string>
+
+    <!-- progress dialog -->
+    <string name = "progress_dialog_title">Sample Code</string>
+    <string name = "progress_dialog_message_plural">This dialog will close in %1$d seconds.</string>
+    <string name = "progress_dialog_message_singular">This dialog will close in 1 second.</string>
+
+    <!-- toasts -->
+    <string name = "activity_result_ok">Success</string>
+    <string name = "activity_result_cancel">Canceled</string>
+
+
+</resources>
